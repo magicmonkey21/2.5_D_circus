@@ -354,9 +354,9 @@ TextureImporter:
       name: GUI_2
       rect:
         serializedVersion: 2
-        x: 244
+        x: 240
         y: 1625
-        width: 80
+        width: 83
         height: 103
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -540,11 +540,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_button2
+      name: GUI_button1
       rect:
         serializedVersion: 2
         x: 2192
-        y: 1309
+        y: 1605
         width: 397
         height: 129
       alignment: 0
@@ -645,12 +645,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_start
+      name: GUI_exit
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 1512
-        width: 228
+        x: 2210
+        y: 1158
+        width: 313
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -897,15 +897,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_button1
+      name: GUI_button2
       rect:
         serializedVersion: 2
-        x: 2192
-        y: 1605
+        x: 2189
+        y: 1307
         width: 397
         height: 129
-      alignment: 9
-      pivot: {x: 1.9125798, y: -4.106482}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 50, y: 50, z: 50, w: 50}
       outline: []
       physicsShape: []
@@ -1611,12 +1611,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_exit
+      name: GUI_leaders
       rect:
         serializedVersion: 2
-        x: 2267
-        y: 1161
-        width: 228
+        x: 2579
+        y: 1158
+        width: 313
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1625,8 +1625,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd0aa1a580185a44a9486077e470f28a
-      internalID: -475648625
+      spriteID: 82da6fbbc67fc2748b3a742b48224712
+      internalID: 1039396920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_start
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1512
+        width: 313
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499981396cf5004397d1bd2512fb4fc
+      internalID: -1680490661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_settings
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1035
+        width: 333
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f7b2d611390ef4faab520e3b278f26
+      internalID: 617357525
       vertices: []
       indices: 
       edges: []
@@ -1635,8 +1677,8 @@ TextureImporter:
       name: GUI_rbutton2
       rect:
         serializedVersion: 2
-        x: 2629
-        y: 1245
+        x: 2631
+        y: 1254
         width: 201
         height: 203
       alignment: 0
@@ -1646,8 +1688,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fc271679358c3e49a1561197ce7d93c
-      internalID: -1320994829
+      spriteID: abfa884c03464f94e85ab89abbc83bd4
+      internalID: -1764757377
       vertices: []
       indices: 
       edges: []
@@ -1655,7 +1697,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 486bbbd798fd2414282c15e3d733b20d
+    spriteID: 41ccc86edea76ef439ede8b32074c739
     internalID: 0
     vertices: []
     indices: 
@@ -1719,14 +1761,16 @@ TextureImporter:
       GUI_68: 21300122
       GUI_9: 21300018
       GUI_background: 21300054
-      GUI_button1: 21300056
-      GUI_button2: 21300022
+      GUI_button1: 21300022
+      GUI_button2: 21300056
       GUI_button3: 21300020
-      GUI_exit: -475648625
+      GUI_exit: 21300032
+      GUI_leaders: 1039396920
       GUI_rbutton1: 21300014
-      GUI_rbutton2: -1320994829
+      GUI_rbutton2: -1764757377
       GUI_rbutton3: 21300016
-      GUI_start: 21300032
+      GUI_settings: 617357525
+      GUI_start: -1680490661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
