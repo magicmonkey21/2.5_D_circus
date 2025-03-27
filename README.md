@@ -2,12 +2,15 @@
 Unity 2.5d Circus project, demonstrates how to use UI elements and animate them. Basics of C# scripting.
 
 ## To-do list:
-- [ ] Create script to change cursor
-- [ ] Add and animate UI elements 
-- [ ] Add background music and sounds
-- [ ] Add animated characters and prefabs
-- [ ] Create character selection screen
-- [ ] Learn about player prefs and saving in json
-- [ ] Write script for dice rolling
+- [x] Create script to change cursor
+- [x] Add and animate UI elements 
+- [x] Add background music and sounds
+- [x] Add animated characters and prefabs
+- [x] Create character selection screen
+- [x] Learn about player prefs and saving in json
+- [x] Write script for dice rolling
+- [ ] Create settings screen
+- [ ] Create leaderboard screen
+- [ ] Create pause screen
 // Continue to write to do list when you start development on your own
 
