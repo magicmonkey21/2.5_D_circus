@@ -8,11 +8,13 @@ public class SceneChangeScript : MonoBehaviour
     public FadeScript fadeScript;
     public SaveLoadScript saveLoadScript;
 
-    public void CloseGame() {
+    public void CloseGame()
+    {
         StartCoroutine(Delay("quit", -1, ""));
     }
 
-    public IEnumerator Delay(string command, int character, string name) {
+    public IEnumerator Delay(string command, int character, string name)
+    {
         if (string.Equals(command, "quit", System.StringComparison.OrdinalIgnoreCase))
         {
             yield return fadeScript.FadeOut(0.1f);
@@ -25,7 +27,8 @@ public class SceneChangeScript : MonoBehaviour
                 Application.Quit();
 
         }
-        else if (string.Equals(command, "play", System.StringComparison.OrdinalIgnoreCase)) {
+        else if (string.Equals(command, "play", System.StringComparison.OrdinalIgnoreCase))
+        {
             yield return fadeScript.FadeOut(0.1f);
             saveLoadScript.SaveGame(character, name);
             SceneManager.LoadScene(1, LoadSceneMode.Single);

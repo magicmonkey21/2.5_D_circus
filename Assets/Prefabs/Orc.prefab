@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 27400578320306914}
   - component: {fileID: 5668856226690058300}
   - component: {fileID: 50038678237686815}
+  - component: {fileID: -255735401603640180}
   m_Layer: 0
   m_Name: Orc
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +121,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-255735401603640180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699958103206948574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10b0f7918fb9bc4cb5505fd3e5e10ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: {fileID: 0}
+  moveSpeed: 1
+  distanceTreshold: 0.1
 --- !u!1 &4129086129727280200
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,11 +6,11 @@ public class DiceRollScript : MonoBehaviour
 {
     Rigidbody rBody;
     Vector3 position;
-    [SerializeField]private float maxRadForceVal, startRolingForce;
+    [SerializeField] private float maxRadForceVal, startRolingForce;
     float forceX, forceY, forceZ;
     public string diceFaceNum;
-    public bool isLanded=false;
-    public bool firstThrow=false;
+    public bool isLanded = false;
+    public bool firstThrow = false;
 
     void Awake()
     {
@@ -25,7 +25,8 @@ public class DiceRollScript : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
-                    if (hit.collider != null && hit.collider.gameObject == this.gameObject) {
+                    if (hit.collider != null && hit.collider.gameObject == this.gameObject)
+                    {
                         if (!firstThrow)
                             firstThrow = true;
 
@@ -34,7 +35,8 @@ public class DiceRollScript : MonoBehaviour
             }
     }
 
-    public void Initialize(int node) {
+    public void Initialize(int node)
+    {
         if (node == 0)
         {
             rBody = GetComponent<Rigidbody>();
@@ -49,7 +51,8 @@ public class DiceRollScript : MonoBehaviour
         transform.rotation = new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), 0);
     }
 
-    private void RollDice() {
+    private void RollDice()
+    {
         rBody.isKinematic = false;
         forceX = Random.Range(0, maxRadForceVal);
         forceY = Random.Range(0, maxRadForceVal);
@@ -58,7 +61,8 @@ public class DiceRollScript : MonoBehaviour
         rBody.AddTorque(forceX, forceY, forceZ);
     }
 
-    public void ResetDice() {
+    public void ResetDice()
+    {
         firstThrow = false;
         isLanded = false;
         rBody.isKinematic = true;

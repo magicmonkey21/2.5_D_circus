@@ -15,7 +15,8 @@ public class ChooseCharacterScript : MonoBehaviour
     {
         characterIndex = 0;
 
-        foreach (GameObject character in characters) {
+        foreach (GameObject character in characters)
+        {
             character.SetActive(false);
         }
         characters[characterIndex].SetActive(true);
@@ -30,7 +31,8 @@ public class ChooseCharacterScript : MonoBehaviour
         characters[characterIndex].SetActive(true);
     }
 
-    public void PreviousCharacter() {
+    public void PreviousCharacter()
+    {
         characters[characterIndex].SetActive(false);
         characterIndex--;
         if (characterIndex == -1)
@@ -39,7 +41,8 @@ public class ChooseCharacterScript : MonoBehaviour
         characters[characterIndex].SetActive(true);
     }
 
-    public void Play() {
+    public void Play()
+    {
         characterName = inputField.GetComponent<TMPro.TMP_InputField>().text;
         if (characterName.Length > 2)
         {

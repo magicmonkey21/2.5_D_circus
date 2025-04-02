@@ -183,9 +183,10 @@ GameObject:
   - component: {fileID: 897416631266020750}
   - component: {fileID: 7225364356474495507}
   - component: {fileID: 7973914161071044360}
+  - component: {fileID: -3712397127811210104}
   m_Layer: 0
   m_Name: FallenAngel2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,3 +292,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3712397127811210104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8113929137180090077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10b0f7918fb9bc4cb5505fd3e5e10ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: {fileID: 0}
+  moveSpeed: 1
+  distanceTreshold: 0.1
